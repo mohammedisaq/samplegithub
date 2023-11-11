@@ -13,5 +13,8 @@ public static void main(String[] args) throws Throwable {
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
 	driver.findElement(By.linkText("Amazon miniTV")).click();
+	//these is my change
+	driver.close();
+	
 }
 }
